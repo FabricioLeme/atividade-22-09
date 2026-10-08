@@ -1,0 +1,12 @@
+div{
+    height: 400px;
+    width: 400px;
+
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/eaba7c94653665.5e843be33b33b.png);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid rgb(15, 5, 5);
+    border-style: groove;
+}
+
+p{color:black}
