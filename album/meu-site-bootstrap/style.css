@@ -1,0 +1,27 @@
+.hero {
+    height: 100vh;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3iNoYuf5soUxVI5V4QycfVsaabkUArJy7fa8fmYAmQ&s=10");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
